@@ -8,6 +8,7 @@ body {
     font-size: 1.2rem;
     font-family: "Work Sans", sans-serif;
     min-height: 4000px;
+    padding-right: 0.1rem !important;
 }
 
 .hero::before {
@@ -489,4 +490,8 @@ footer li {
     .timeline li .timeline-panel::after {
        top: 31px; 
     }
+
+    .mynavbar .offcanvas {
+        width: 150px;
+      }
 }
